@@ -1,0 +1,377 @@
+* {
+	font-family: Helvetica;
+}
+
+
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #f0f2f5;
+}
+
+		/*GLOBAL STYLES*/
+
+
+h3 {
+	color: #1c1e21;
+	font-size: 1.5rem;
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+	margin: 1% 0;
+	font-weight: 100;
+}
+
+div.part1 p {
+	color: #606770;
+	font-size: 1rem;
+	margin: 1% 0 3% 0;
+	font-weight: 300;
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;;
+}
+a {
+	text-decoration: none;
+	color: #1877f2;
+	
+}
+
+
+			/*LAYOUT*/
+
+
+body div.globalBody {
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+
+
+body div.part1 {
+	justify-self: center;
+	width: 60%;
+}
+
+/*span {
+	width: -webkit-fill-available;
+}
+
+span button {
+	width: -webkit-fill-available;
+	height: 10%;
+	background-color: grey;
+
+}
+
+span img {
+	width: -webkit-fill-available;
+}
+*/
+
+body div#profileList {
+	width: fit-content;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 4%;
+
+}
+
+div#profileList div#oldLoggedProf span {
+	background-color: red;
+	color: white;
+	font-weight: 100;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 100%;
+
+}
+
+div#profileList div#noti-icon {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: -2%;
+}
+div#profileList div#oldLoggedProf div#cont {
+	position: relative;
+	
+}
+
+div#profileList div#oldLoggedProf div#cont div#ind{
+	background-color: red;
+	color: white;
+	font-weight: 100;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0%;
+	right: 0%;
+	left: 60%;
+	bottom: 60%;
+}
+
+div#profileList div#oldLoggedProf div#cont div#ind div {
+	background-color: red;
+}
+
+
+
+
+body div.part1 div#profileList div#oldLoggedProf i {
+	position: absolute;
+	margin-top: 0.5%;
+	margin-left: 0.5%;
+	background-color: white;
+	color: #545453;
+	border-radius: 100px;
+	font-size: 1.01em;
+}
+
+
+body div#profileList div#addOpt {
+	border-radius: 10px;
+
+}
+
+body div#profileList div#addOpt button {
+	border-radius: 0;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	text-align: center;
+	height: 84%;
+	background-color: #dddfe2;
+	padding-right: 62.5px;
+	padding-left: 62.5px;
+	width: 100%;
+}
+
+body div#profileList div#addOpt button i {
+	color: #1877f2;
+	background-color: white;
+	border: none;
+	border-radius: 100px;
+	font-size: 2.3em;
+}
+
+body div#profileList div#addOpt h5 {
+	color: #1877f2;
+	margin-top: 0px;
+	border: none;
+	border-radius: 10px;
+	border-top-right-radius: 0;
+    border-top-left-radius: 0;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 4%;
+	height: 15%;
+	color: #1877f2;
+}
+
+body div#profileList img {
+	margin-bottom: 0px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+body div#profileList button {
+	background-color: white;
+	margin-top: 0px;
+	border: none;
+	border-radius: 10px;
+	border-top-right-radius: 0;
+    border-top-left-radius: 0;
+	color: black;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+
+body div.part2 {
+	width: 60%;
+	justify-self: center;
+}
+
+body div.logInForm {
+	width: -webkit-fill-available;
+	width: -moz-available;
+	background-color: white;
+	padding: 5%;
+	border-radius: 7px;
+}
+
+
+input, button {
+	display: block;
+	text-align: center;
+	padding: 3% 5%;
+	width: -webkit-fill-available;
+	width: -moz-available;
+	font-size: 1rem;
+}
+
+div.logInForm a {
+	display: block;
+	text-align: center;
+	padding: 1% 5%;
+	width: -webkit-fill-available;
+	width: -moz-available;
+	font-size: 1rem;
+}
+
+p#createPage, p#createPage a {
+	color: black;
+	font-size: 1rem;
+	text-align: center;
+	width: 100%;
+}
+
+		/*PROPER STYLES*/
+
+
+
+img#fbLogo {
+	width: 199px;
+	height: 70px;
+	text-align: left;
+}
+
+
+body div#profileList div {
+	background-color: white;
+	border-radius: 10px;
+	width: fit-content;
+	/*transition: transform 1s ;*/
+}
+
+
+i {
+
+background-color: #1877f2;
+}
+
+body div.part1 div#profileList div:hover {
+	box-shadow: 0px 0px 12px 5px #b8b6b6;
+}
+
+
+button#logInBtn {
+	background-color: #1877f2;
+	color: white;
+	font-size: 1.3rem;
+	font-weight: 600;
+	border-radius: 5px;
+	border: none;
+}
+
+button#logInBtn:hover {
+	background-color: #145bb8;
+	cursor: pointer;
+}
+
+button#newAcntBtn {
+	background-color: #42b72a;
+	color: white;
+	font-size: 1rem;
+	font-weight: 600;
+	border-radius: 5px;
+	border: none;
+	width: 57%;
+	margin: auto;
+}
+
+button#newAcntBtn:hover {
+	cursor: pointer;
+	background-color: #308a1e;
+}
+
+input:active {
+	border-color: #1877f2;
+	color: #1877f2;
+	box-shadow: 0 0 5px 5px #1877f2;
+}
+
+input:focus {
+	border: 1px solid #1877f2;
+	color: #1877f2;
+	box-shadow: 0 0 2px 2px #1877f2;
+}
+
+input:focus-within {
+	border: 1px solid #1877f2;
+	color: #1877f2;
+	box-shadow: 0 0 2px 2px #1877f2;
+}
+
+input:target {
+	border: 1px solid #1877f2;
+	color: #1877f2;
+	box-shadow: 0 0 2px 2px #1877f2;
+}
+
+input:focus-visible {
+	border: 1px solid #1877f2;
+	color: #1877f2;
+	box-shadow: 0 0 2px 2px #1877f2;
+}
+/*
+@media only screen and (max-width: 800px) {
+	div.globalBody div.part2 {
+		width: 60%;
+		align-self: flex-start;
+	}
+}
+*/
+
+
+@media only screen and (max-width: 996px) {
+	div.globalBody {
+		justify-items: center;
+		grid-template-rows: 1fr 1fr;
+	}
+
+	div.globalBody div {
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	div#profileList div#noti-icon {
+		margin-left: -3%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+
+	div.globalBody div.part2 {
+		align-self: flex-start;
+	}
+
+	div#profileList div#noti-icon {
+		margin-left: -4%;
+	}
+
+}
+/*
+body div.profileList img {
+	height: 5rem;
+	width: 5rem;
+}
+
+body div.profileList {
+	display: flex;
+
+}*/
